@@ -121,7 +121,7 @@ jobs:
 
       - name: Upload tool output
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: tool-reports-TS-152
           path: |
